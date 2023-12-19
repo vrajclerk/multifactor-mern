@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Connect to MongoDB with connection pooling
-mongoose.connect('mongodb://127.0.0.1:27017/users', {
+mongoose.connect('mongodb://127.0.0.1:27017/otp', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 	// poolSize: 10,
