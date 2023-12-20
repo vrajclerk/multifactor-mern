@@ -13,7 +13,7 @@ const Login = () => {
 		try {
 			const response =
 				await axios.post(
-					'http://localhost:3001/auth/Login',
+					"http://localhost:3001/auth/Login",
 					{
 						email,
 						password
@@ -37,7 +37,7 @@ const Login = () => {
 			const otpResponse =
 				await
 					axios.post(
-						'http://localhost:3001/auth/verify-otp',
+						"http://localhost:3001/auth/verify-otp",
 						{
 							otp
 						}
